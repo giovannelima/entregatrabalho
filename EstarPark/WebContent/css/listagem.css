@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+	font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans",
+		"Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+table {
+	
+	border-collapse: inherit;
+	width: 96%;
+	height: 95%;
+	margin-left: 20px;
+}
+
+table tr th {
+text-align: center;
+}
+
+thead {
+	
+	border-top: 1px solid #a5a5a5;
+	border-bottom: 1px solid #a5a5a5;
+}
+
+tr:hover {
+	background-color: #3d80df;
+	color: black;
+}
+
+thead tr:hover {
+	background-color: transparent;
+	color: inherit;
+}
+
+tr:nth-child(even) {
+	background-color: #edf5ff;
+	height: calc(1.5em + .75rem + 2px);
+}
+
+th {
+	font-weight: normal;
+	text-align: center;
+}
+
+th {
+	padding: 0.1em 1em;
+	color: blue;
+}
+
+td {
+	text-overflow: ellipsis;
+	text-align: center;	
+}
+
+#pag {
+margin-left: 420px;	
+margin-top: 240px;
+position: fixed;	
+}
+
+table tr td #buttonDelete{
+width: 100px;
+}
